@@ -1,5 +1,0 @@
-<map id="process_corpus" name="process_corpus">
-<area shape="rect" id="node1" title="turn contents of filename into cdata each line of the file is represented by a CoinTrial object" alt="" coords="5,31,128,57"/>
-<area shape="rect" id="node2" href="$classSymTable.html#a5ebb2b84bd59ed5623471a177db7afac" title="this adds word to the sym table if it is not there" alt="" coords="176,5,328,32"/>
-<area shape="rect" id="node3" href="$make__gamma_8cpp.html#a4536bba159c7a8dbbbc03d12ba7b531c" title="splits a line into into tokens using white&#45;space as separator" alt="" coords="213,56,291,83"/>
-</map>
