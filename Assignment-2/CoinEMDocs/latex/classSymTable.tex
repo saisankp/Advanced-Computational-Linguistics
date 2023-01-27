@@ -1,0 +1,150 @@
+\doxysection{Sym\+Table Class Reference}
+\label{classSymTable}\index{SymTable@{SymTable}}
+
+
+class for a symbol table mapping the strings which are the values of variables to integers representing those strings  
+
+
+
+
+{\ttfamily \#include $<$Sym\+Table.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Sym\+Table} (void)
+\item 
+int \textbf{ get\+\_\+code} (string cat)
+\begin{DoxyCompactList}\small\item\em this adds word to the sym table if it is not there \end{DoxyCompactList}\item 
+int \textbf{ check\+\_\+code} (string cat)
+\begin{DoxyCompactList}\small\item\em this looks word up and returns -\/1 if it is not in the table \end{DoxyCompactList}\item 
+string \textbf{ decode\+\_\+to\+\_\+symbol} (int code)
+\begin{DoxyCompactList}\small\item\em goes back from a code to the original string symbol \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ symbol\+\_\+total}
+\begin{DoxyCompactList}\small\item\em the total number of symbols in the table \end{DoxyCompactList}\item 
+map$<$ string, int $>$ \textbf{ the\+\_\+symbols}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+map$<$ int, string $>$ \textbf{ sym\+\_\+decoder}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class for a symbol table mapping the strings which are the values of variables to integers representing those strings 
+
+Definition at line 12 of file Sym\+Table.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classSymTable_a876f894dc1cb0270858185f307eeaf6a}} 
+\index{SymTable@{SymTable}!SymTable@{SymTable}}
+\index{SymTable@{SymTable}!SymTable@{SymTable}}
+\doxysubsubsection{SymTable()}
+{\footnotesize\ttfamily Sym\+Table\+::\+Sym\+Table (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file Sym\+Table.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classSymTable_a97fe19ea1cf7b1c3f6ae44cb5723a250}} 
+\index{SymTable@{SymTable}!check\_code@{check\_code}}
+\index{check\_code@{check\_code}!SymTable@{SymTable}}
+\doxysubsubsection{check\_code()}
+{\footnotesize\ttfamily int Sym\+Table\+::check\+\_\+code (\begin{DoxyParamCaption}\item[{string}]{cat }\end{DoxyParamCaption})}
+
+
+
+this looks word up and returns -\/1 if it is not in the table 
+
+
+
+Definition at line 37 of file Sym\+Table.\+cpp.
+
+\mbox{\label{classSymTable_a68e08b7f9a72a2f450fcad5034a41313}} 
+\index{SymTable@{SymTable}!decode\_to\_symbol@{decode\_to\_symbol}}
+\index{decode\_to\_symbol@{decode\_to\_symbol}!SymTable@{SymTable}}
+\doxysubsubsection{decode\_to\_symbol()}
+{\footnotesize\ttfamily string Sym\+Table\+::decode\+\_\+to\+\_\+symbol (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})}
+
+
+
+goes back from a code to the original string symbol 
+
+
+
+Definition at line 49 of file Sym\+Table.\+cpp.
+
+
+
+Referenced by main(), Coin\+Trial\+::outcomes\+\_\+string(), and Coin\+Trial\+::show().
+
+\mbox{\label{classSymTable_a5ebb2b84bd59ed5623471a177db7afac}} 
+\index{SymTable@{SymTable}!get\_code@{get\_code}}
+\index{get\_code@{get\_code}!SymTable@{SymTable}}
+\doxysubsubsection{get\_code()}
+{\footnotesize\ttfamily int Sym\+Table\+::get\+\_\+code (\begin{DoxyParamCaption}\item[{string}]{cat }\end{DoxyParamCaption})}
+
+
+
+this adds word to the sym table if it is not there 
+
+
+
+Definition at line 18 of file Sym\+Table.\+cpp.
+
+
+
+Referenced by process\+\_\+corpus().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{classSymTable_afb35dcdb8c9829f3ab9ae42a89624b51}} 
+\index{SymTable@{SymTable}!sym\_decoder@{sym\_decoder}}
+\index{sym\_decoder@{sym\_decoder}!SymTable@{SymTable}}
+\doxysubsubsection{sym\_decoder}
+{\footnotesize\ttfamily map$<$int,string$>$ Sym\+Table\+::sym\+\_\+decoder\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 24 of file Sym\+Table.\+h.
+
+\mbox{\label{classSymTable_abed3eddc5e61486dea506efa6856815b}} 
+\index{SymTable@{SymTable}!symbol\_total@{symbol\_total}}
+\index{symbol\_total@{symbol\_total}!SymTable@{SymTable}}
+\doxysubsubsection{symbol\_total}
+{\footnotesize\ttfamily int Sym\+Table\+::symbol\+\_\+total}
+
+
+
+the total number of symbols in the table 
+
+
+
+Definition at line 16 of file Sym\+Table.\+h.
+
+\mbox{\label{classSymTable_a28eec85eaed3661f617093ab10e8be8e}} 
+\index{SymTable@{SymTable}!the\_symbols@{the\_symbols}}
+\index{the\_symbols@{the\_symbols}!SymTable@{SymTable}}
+\doxysubsubsection{the\_symbols}
+{\footnotesize\ttfamily map$<$string,int$>$ Sym\+Table\+::the\+\_\+symbols}
+
+
+
+Definition at line 21 of file Sym\+Table.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Sym\+Table.\+h}\item 
+\textbf{ Sym\+Table.\+cpp}\end{DoxyCompactItemize}

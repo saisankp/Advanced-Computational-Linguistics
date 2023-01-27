@@ -1,0 +1,4 @@
+<map id="Variable" name="Variable">
+<area shape="rect" id="node1" title="represents aspects of a variable" alt="" coords="11,95,85,121"/>
+<area shape="rect" id="node2" href="$classSymTable.html" title="class for a symbol table mapping the strings which are the values of variables to integers representi..." alt="" coords="5,5,91,32"/>
+</map>
